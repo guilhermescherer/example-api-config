@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: 	org.postgresql.Driver
-    username: root
+    username: postgres
     url: jdbc:postgresql://localhost:5432/postgres
-    password: toor
+    password: passw0rd
   jpa:
     hibernate:
       ddl-auto: update
